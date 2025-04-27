@@ -1,0 +1,19 @@
+
+{
+	  "manifest_version": 2,
+	  "name": "UserlessChatGPT",
+	  "version": "1.0",
+
+	  "description": "Automatically press stay logged out when accessing ChatGPT",
+
+	  "icons": {
+		"48": "icons/icon.jpg"
+	  },
+
+	  "content_scripts": [
+		{
+		  "matches": ["*://chatgpt.com/*"],
+		  "js": ["main.js"]
+		}
+	  ]
+}
