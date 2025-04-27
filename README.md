@@ -1,0 +1,1 @@
+# firefox_plugin_chatgpt_stayloggedout
